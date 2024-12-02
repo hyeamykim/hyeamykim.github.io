@@ -1,0 +1,12 @@
+baseURL = "https://hyeamykim.github.io/" 
+languageCode = "en-us" 
+title = "My Blog" 
+theme = "anatole"
+enableEmoji = true
+
+[params]
+author = "hyeamykim"
+description = "Showcasing My Project-based-learning."
+authorEmail = "hyeamykim@gmail.com"
+
+
