@@ -17,7 +17,7 @@ author = "hyeamykim"
 title = "My blog"
 description = "Showcasing My Project-based-learning"
 authorEmail = "hyeamykim@gmail.com"
-profilePicture = "images/profile_photo.jpg"
+profilePicture = "images/profile_photo.JPG"
 
   [[params.socialIcons]]
   icon = "fab fa-linkedin"
