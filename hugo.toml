@@ -3,11 +3,53 @@ languageCode = "en"
 theme = "anatole"
 enableEmoji = true
 
-[params] 
-author = "hyeamykim" 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+[params]
+author = "hyeamykim"
 title = "My blog"
-description = "Showcasing My Project-based-learning" 
+description = "Showcasing My Project-based-learning"
 authorEmail = "hyeamykim@gmail.com"
-profilePicture = "images/profile_photo.jpg"  
+profilePicture = "images/profile_photo.jpg"
 
+  [[params.socialIcons]]
+  icon = "fab fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/hye-yeon-kim-60222090/"
 
+  [[params.socialIcons]]
+  icon = "fab fa-medium"
+  title = "Medium"
+  url = "https://medium.com/@hyeamykim"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
