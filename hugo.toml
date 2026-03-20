@@ -14,8 +14,8 @@ enableEmoji = true
 
 [params]
 author = "hyeamykim"
-title = "My blog"
-description = "Showcasing My Project-based-learning"
+title = "Training Loop"
+description = "This blog is my public training loop — shipping small technical projects, reflecting on what works, and improving over time."
 authorEmail = "hyeamykim@gmail.com"
 profilePicture = "images/profile_photo.jpg"
 
